@@ -19,7 +19,7 @@ alert(`Correto`)
 
 
 
-//A variáveis nesse código não mudam, o usuário tem chances infinitas de tentativas.
+//As variáveis nesse código não mudam, o usuário tem chances infinitas de tentativas.
 //_____________________________________________________________________________________
 
 
@@ -43,5 +43,21 @@ if(vkey==key){
     validate()
 }
 }
+
+//Eu chamei a função 'validate' através do 'onload' na tag 'body'.
+//exemplo:
+
+<html>
+<head>
+<tittle>Cálculo simples de validação</tittle>
+<script src="system.js"></script>
+</head>
+   <body onload="validate()">
+   
+   </body>
+</html>
+
+
+
 
 

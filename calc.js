@@ -43,6 +43,9 @@ if(vkey==key){
     validate()
 }
 }
+// ESSE CÓDIGO NÃO DEVE SER USADO COMO VALIDAÇÃO, POR SER BASTANTE SIMPLES E ESTÁ RODANDO NO DISPOSITIVO DO USUÁRIO
+//É APENAS UM EXEMPLO.
+
 
 //Eu chamei a função 'validate' através do 'onload' na tag 'body'.
 //exemplo:
